@@ -1,0 +1,428 @@
+html{
+    color: #444444;
+    font-size: 16px;
+    /* display: block; */
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}    
+
+/* NAV BAR */
+
+nav{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    
+    
+}
+
+@media (max-width: 500px){
+
+
+}
+
+
+nav img{
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+}
+
+.col-acad{
+    height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+    color: black;
+    
+}
+
+.acad{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+    height: 32px;
+    color: #999999;
+}
+
+nav .nav-items{
+    width: 100%;
+    
+    
+    
+}
+
+.nav-items ul{
+    float: right;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #454545;
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/* MAIN */
+
+.container{
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    padding-top: 3.75rem;
+    
+
+}
+
+.container img{
+    width: 60%;
+    padding-top: 2.5rem;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    float: left;
+    
+}
+
+.container p{
+    text-align: left;
+    font-size: 48px;
+    margin-top: 15%;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    float: center;
+    bottom: 0%;
+    margin-bottom: 20px;
+    padding: 0;
+    
+
+}
+
+.container span{
+    font-size: 28px;
+    font-family: Tahoma, sans-serif;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    border: none;
+    color: white;
+    background-color: #444444; 
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    font-size: 18px;
+    
+}
+
+/* MAIN: BUTTON */
+
+.button:hover
+{
+  opacity: 1;
+  background-color: #444444;
+  border: 0px #000000 solid;
+}
+
+.button:active
+{
+  background-color: gray;
+  border: 0px #000000 solid;
+}
+
+/* INFORMATION */
+
+.information{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info-main{
+    width: 60%;
+    background-color: white;
+    padding: 2rem 1.5rem;
+    
+}
+
+.info-main img{
+    width: 100%;
+    
+
+}
+
+.info-main h1{
+    text-align: left;
+    color: #444444;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+.info-main p{
+    padding: 0 1.5rem;
+    font-weight: lighter;
+    font-size: 1.125rem;
+}
+
+.info-main #quote-name{
+    padding-top: 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    padding-left: 0rem;
+    padding-bottom: 2rem;
+    border-left: 1px solid lightgrey;
+    
+
+}
+
+.links img{
+    width: 35%;
+    padding-top: 1.5rem;
+}
+
+.orientation{
+    padding-top: 1rem;
+}
+
+.orientation, .campus, .guest{
+    display: flex;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    transition-property: background-color;
+    transition-duration: 1s;
+    
+
+}
+
+.orientation, .campus{
+    border-bottom: 1px solid lightgray;
+}
+
+
+.info{
+    width: 65%;
+    padding: 1rem 1rem;
+
+}
+
+#read-more{
+    color: #2c91ed;
+}
+
+.orientation:hover, .campus:hover, .guest:hover{
+    background-color: lightgray;
+}
+
+/* START LEARNING */
+
+.start-learning .learn-container{
+    width: 100%;
+}
+
+.learn-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+#learn-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: light;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3rem;
+    margin: 0;
+}
+
+
+.course{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 23rem;
+    margin: 0 2rem 2rem 2rem;
+    background-color: white;
+}
+
+#course-img{
+    width: 23rem;
+    height: auto;
+}
+
+.text{
+    display: block;
+    margin: 16px 16px 24px 16px;
+    align-content: flex-start;
+}
+
+.text h3{
+    font-size: 1.5rem;
+}
+
+.text p{
+    color: gray;
+}
+
+/* THESIS EXHIBIT */
+
+
+#thesis-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: light;
+    background-color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3rem;
+    margin: 0;
+    
+}
+
+
+.thesis{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+.video{
+    width: 60%;
+    height: auto;
+    margin: 0px 24px 24px 24px;
+}
+
+.video video{
+    width: 100%;
+}
+
+.video-text{
+    font-weight: lighter;
+    font-size: 1.125rem;
+}
+
+.video-text h3{
+    margin: 1.5rem 0 .5rem 1.5rem;
+
+}
+
+.video-text p{
+    padding: 0rem 0 2rem 1.5rem;
+    color: gray;
+
+}
+
+.thesis-links{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border-left: 1px solid lightgray;
+}
+
+.fisma{
+    border-bottom: 1px solid lightgray;
+}
+
+.fisma, .now-then{
+    display: flex;
+    transition-property: background-color;
+    transition-duration: 1s;
+    
+
+
+}
+
+.fisma:hover, .now-then:hover{
+    background-color: lightgray;
+}
+
+.fisma img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+    
+}
+
+.now-then img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+    
+}
+
+.text{
+    width: 65%;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid lightgray;
+    
+}
+
+footer h4{
+    color: gray;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: .25rem 1.5rem;
+
+}
+
+footer ul{
+    float: right;
+    padding: .25rem 1.5rem;
+    
+}
+
+footer li{
+    display: inline-block;
+    padding: .5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer h6{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+}
+
+.terms, .copyright{
+    width: 100%;
+}
+
